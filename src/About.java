@@ -28,6 +28,7 @@ public class About extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("About");
+        
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Palatino Linotype", 1, 18)); // NOI18N
