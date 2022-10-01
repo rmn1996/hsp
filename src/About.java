@@ -161,6 +161,42 @@ public class About extends javax.swing.JFrame {
             }
         });
     }
+     @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("About");
+        setResizable(false);
+
+        jLabel1.setFont(new java.awt.Font("Palatino Linotype", 1, 18)); // NOI18N
+        jLabel1.setText("Hospital Management System");
+
+        jLabel2.setFont(new java.awt.Font("Palatino Linotype", 0, 14)); // NOI18N
+        jLabel2.setText("Version 1.0");
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel3.setText("Developed By :");
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images.jpg"))); // NOI18N
+
+        jButton1.setText("OK");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
     // Variables declaration - do not modify//GEN-BEGIN:variables
     
 //     class FibonacciExample1{  
