@@ -44,7 +44,24 @@ public class EditLoginDetailsController
 		}
 	}
 	
-	
+	@RequestMapping(value="/newLoginDetails.html", method = RequestMethod.POST)
+	public ModelAndView editLoginView(@RequestParam("username")String username,@RequestParam("password")String password, HttpServletRequest request)
+	{
+		try {
+			infoLog.logActivities("in EditLoginDetailsController-editLoginView: got="+username+" "+password);
+			 HttpSession session= request.getSession();
+			 Login l=(Login)session.getAttribute("userInfo");
+			 
+			 int i=dao1.editLoginInfo(l.getId(),username,password);
+			 infoLog.logActivities("returned to EditLoginDetailsController-editLoginView: got= "+i);
+			
+				
+				else
+				{   throw new Exception();  }
+				
+			}
+			catch(Exception e)
+			
 			
 	}
 }
